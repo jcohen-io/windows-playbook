@@ -45,7 +45,7 @@ choco_installed_packages:
   - vscode
   - sysinternals
   - irfanview
-  - emclient
+#  - emclient
   - pandoc
   - foxitreader
   - 7zip
@@ -59,7 +59,7 @@ choco_installed_packages:
   - zadig
   - winmerge
   - sublimetext4
-  - sublimimerge
+  - sublimemerge
   - putty
   - pycharm-community
   - openjdk11
