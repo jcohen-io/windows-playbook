@@ -67,9 +67,9 @@ choco_installed_packages:
   - hxd
   - gping
   - github-desktop
-  - ftdi-drivers
+ # - ftdi-drivers
   - ftprog
-  - edrawings-viewer
+#  - edrawings-viewer
   - dotnetfx
   - dfu-util
   - dotnet-5.0-runtime
@@ -81,7 +81,7 @@ choco_installed_packages:
   - docker-desktop
   - everything
   - MiKTeX
-  - realterm
+#  - realterm
   - chocolateygui
 
 
@@ -123,9 +123,8 @@ install_ohmyposh: true
 # List of features: "Get-WindowsOptionalFeature -Online"
 install_windows_features: false
 windows_features:
-  Microsoft-Hyper-V: true
   Printing-PrintToPDFServices-Features: true
-  NetFx3: true
+  #NetFx3: true
   WCF-Services45: true
   WCF-TCP-PortSharing45: true
   MediaPlayback: true
